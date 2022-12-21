@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cursif";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cursif"), url("./fonts/Cursif.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.double-arrows-img {
+  filter: invert(15%) sepia(24%) saturate(1266%) hue-rotate(134deg) brightness(95%) contrast(91%);
+}
+.double-arrows-img:hover {
+  filter: invert(31%) sepia(24%) saturate(556%) hue-rotate(153deg) brightness(85%) contrast(93%);
+}
